@@ -1,0 +1,35 @@
+.profile-bar {
+    height:75px;
+    background-color: black;
+}
+#logo {
+    height:40px;
+}
+#navbarSupportedContent {
+    margin-right: 150px;
+}
+#profile-photo {
+    height:70px;
+    width: 90px;
+}
+#box1 {
+    background-image: url("./assets/classroom.jpeg");
+    background-size: cover;
+    border-width: 5px;
+    border-style: double;
+    height: 600px;
+    width: 100%;
+}
+#text1{
+    margin-left: 940px;
+}
+
+.carousel-item active { 
+    height: 10%; 
+}
+#carouselExampleIndicators {
+    height: 10%;
+}
+.carousel slide {
+    height: 10%;
+}
