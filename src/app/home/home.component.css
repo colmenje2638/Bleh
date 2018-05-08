@@ -1,1 +1,11 @@
 
+.carousel-item active { 
+    height: 10%; 
+}
+#carouselExampleIndicators {
+    height: 10%;
+}
+.carousel slide {
+    height: 10%;
+}
+

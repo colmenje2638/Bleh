@@ -1,0 +1,53 @@
+.profile-bar {
+    height:75px;
+    background-color: black;
+}
+#logo {
+    height:40px;
+}
+#navbarSupportedContent {
+    margin-right: 90px;
+}
+#profile-photo {
+    height:70px;
+    width: 90px;
+}
+
+#text1{
+    margin-left: 940px;
+}
+#box1 {
+    background-image: url("../assets/classroom.jpeg");
+    background-size: cover;
+    border-width: 5px;
+    border-style: double;
+    height: 600px;
+    width: 100%;
+}
+
+#foot1 { 
+    border-width: 6px;
+
+}
+
+  .theBox2{
+        border-radius: 5px;
+        height: 130px;  
+        overflow: hidden;
+        position: relative;
+        background-color: aquamarine;
+
+
+    }
+
+    .txtBox2{
+        position: absolute;
+        background:url(http://i.imgur.com/sGWRvSp.png?1);
+        background-size: 60px 90px;
+        bottom: 0; 
+        left:0px;
+    }
+    #image1 {
+        background-size: 80px 120px;
+        margin-left: 450px;
+    }
