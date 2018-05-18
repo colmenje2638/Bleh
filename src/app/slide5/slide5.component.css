@@ -1,0 +1,9 @@
+#freeStuff1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+#image102 {
+    height: 100px;
+    width: 150px;
+}

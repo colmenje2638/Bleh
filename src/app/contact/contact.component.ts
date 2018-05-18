@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  public items = []; 
+  public user = {
+    firstName: '' ,
+    lastName: ''
+  }; 
+  constructor() { 
 
-  constructor() { }
+  }
 
   ngOnInit() {
   }
-
+  login(){
+    console.log(this.user)
+  }
 }
