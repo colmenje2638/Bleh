@@ -9,6 +9,7 @@ import { Slide2Component } from './slide2/slide2.component';
 import { Slide3Component } from './slide3/slide3.component';
 import { Slide4Component } from './slide4/slide4.component';
 import { Slide5Component } from './slide5/slide5.component';
+import { JlokComponent } from './jlok/jlok.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,8 @@ const routes: Routes = [
     path: 'Slide4', component: Slide4Component,
   }, {
     path: 'Slide5', component: Slide5Component,
+  },{
+    path: 'jlok', component: JlokComponent,
   },
   {
     path: '**',

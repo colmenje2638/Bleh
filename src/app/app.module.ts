@@ -13,6 +13,7 @@ import { Slide3Component } from './slide3/slide3.component';
 import { Slide4Component } from './slide4/slide4.component';
 import { Slide5Component } from './slide5/slide5.component';
 import { JlokComponent } from './jlok/jlok.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { JlokComponent } from './jlok/jlok.component';
     AppRoutingModule,
     FormsModule,
     NgbModule.forRoot(),
+    HttpClientModule,
     ],
   providers: [],
   bootstrap: [AppComponent]

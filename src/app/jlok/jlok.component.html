@@ -1,10 +1,16 @@
-<form #a="ngForm" (ngSubmit)="addGamers(a)">
-  <ul class="list-group gamer-list">
-        <li class="list-group-item agamer" *ngFor="let user of allUsers$ | async as users; index as i">
-            <div class="material-switch">
-                <input id="switch{{user.username}}" value="switch{{user.username}}" name="switchUsername" (click)="isChecked()" type="checkbox"/>
-                <label for="switch{{user.username}}" class="switch{{user.key}}"></label>
-            </div>
-            {{user.username}} {{ i }}
-        </li>
-</ul>
+<div id="maxthousand">
+
+    <form #a="ngForm" (ngSubmit)="addGamers(a)">
+        <ul class="list-group gamer-list">
+            <li class="list-group-item agamer" *ngFor="let user of allUsers$ | async as users; index as i">
+                <div class="material-switch">
+                    <input id="switch{{user.username}}" value="switch{{user.username}}" name="switchUsername" (click)="isChecked()" type="checkbox">
+                    <label for="switch{{user.username}}" class="switch{{user.key}}"></label>
+                </div>
+                {{user.username}} {{ i }}
+
+            </li>
+        </ul>
+        {{this.Http.get}}
+    </form>
+</div>

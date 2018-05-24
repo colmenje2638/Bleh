@@ -1,7 +1,16 @@
-#box15 {
-   border-width: 5px;
-   border-style: double;
+#colorChangeContactUs {
+    background-color: brown;
+    border-style: double;
+    border-width: 7px;
 }
-#foot1 {
-    
+#contactBox {
+    margin-left: 10px;
+}
+.colorText52 {
+    background-color: black;
+    color: white;
+}
+#textArea51 {
+    background-color: black;
+    color: white;
 }

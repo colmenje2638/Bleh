@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-jlok',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JlokComponent implements OnInit {
 
-  constructor() { }
+  constructor(public Http: HttpClient) { }
 
   ngOnInit() {
+    this.Http.get('http://localhost:3000/')
+    .subscribe((Response:any)=>{
+      console.log(Response);
+    })
   }
 
 }

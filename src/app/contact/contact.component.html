@@ -1,50 +1,47 @@
-<div id="contactBox">
-  <h2>Welcome to ExportApp!</h2>
-<form id="customerComplaint1" #customerComplaint1="ngForm" (ngSubmit)="login()">
-  First name:
-  <br>
-  <input type="text" name="firstName" [(ngModel)]="user.firstName" required>
-  <br> Last name:
-  <br>
-  <input type="text" name="lastName" [(ngModel)]="user.lastName" required>
+<div id="colorChangeContactUs">
+  <div id="contactBox">
+    <h2>Welcome to ExportApp!</h2>
+    <div id="box008">
+      <form id="customerComplaint1" #customerComplaint1="ngForm" (ngSubmit)="login()">
+        First name:
+        <br>
+        <input class="colorText52"type="text" name="firstName" [(ngModel)]="contact.firstName" required>
+        <br> Last name:
+        <br>
+        <input class="colorText52" type="text" name="lastName" [(ngModel)]="contact.lastName" required>
+
+        <h2>Are you having any issues today!?</h2>
+        <input type="radio" id="loginTrouble" name="NewUser" value="1" (click)="isChecked()" [(ngModel)]="contact.radio" required >Having login trouble?
+        <br>
+        <input type="radio" id="technicalTrouble" name="NewUser" value="2" (click)="isChecked2()" [(ngModel)]="contact.radio" required>Having technical trouble?
+        <br>
+        <input type="radio" id="blockingAndReporting" name="NewUser" value="3" (click)="isChecked3()" [(ngModel)]="contact.radio" required >Blocking and reporting user (s) ?
+        <br>
+        <input type="radio" id="canWeImprove" name="NewUser" value="4" (click)="isChecked4()" [(ngModel)]="contact.radio" required> Have any ideas of how we can improve?
+        <br>
+        
+        <h2>Pease briefly describe.</h2>
+        <textarea id="textArea51" name="paragraph_text" pattern="{7,}" required title="minimum 7 characters" cols="50" rows="10" [(ngModel)]="contact.paragraph_text"  ></textarea>
+        <h2>Enter Email </h2>
+        <input class="displayEmail5" type="text" pattern="{7,}" required title="minimum 7 characters" name="displayEmail5" [(ngModel)]="contact.displayEmail5" >
+        <br>
+
+        <button id="rateButton" [disabled]="!customerComplaint1.valid">Submit</button>
 
 
-  <div>
-    <input type="radio" name="NewUser" value="male" checked> New User
-    <br>
-    <input type="radio" name="NewUser" value="female"> Existing User
-    <br>
-    <button>Submit</button>
+      </form>
+
+      <ng-template [ngIf]="condition12">
+        <div></div>
+    </ng-template>
+    <ng-template #thenBlock></ng-template>
+    <ng-template #elseBlock></ng-template>
+
+
+
+
+
+
+    </div>
   </div>
- <p> {{user.firstName}}</p> 
-</form>
-
-
-  <div id="box15">
-
-    <h2>Are you having any issues today!?</h2>
-    <input type="radio" name="NewUser" value="male" checked>Having login trouble?
-    <br>
-    <input type="radio" name="NewUser" value="female">Having technical trouble?
-    <br>
-    <input type="radio" name="NewUser" value="male" checked>Blocking and reporting user (s) ?
-    <br>
-    <input type="radio" name="NewUser" value="female"> Have any ideas of how we can improve?
-    <br>
-    <button>Submit</button>
-
-  </div>
-
-
-  <div id="box17">
-
-    <h2>Pease briefly describe.</h2>
-    <textarea name="paragraph_text" cols="50" rows="10"></textarea>
-
-
-    <button>Submit</button>
-
-  </div>
-
-
 </div>
