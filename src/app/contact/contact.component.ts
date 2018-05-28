@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -33,6 +34,7 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
   ngIf() {
@@ -67,6 +69,14 @@ export class ContactComponent implements OnInit {
         console.log(response);
       }, (error) => {
         console.log(error);
+        this.contact = {
+          firstName: '',
+          lastName: '',
+          NewUser: '',
+          paragraph_text: '',
+          displayEmail5: '',
+          radio: '',
+        }
       });
   }
 }

@@ -1,7 +1,18 @@
 #colorChangeContactUs {
-    background-color: brown;
+    background-color: lightblue;
     border-style: double;
     border-width: 7px;
+    background-image: url(../../assets/latinaLuckLogo1200.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 300px 300px;
+    background-position-x: 750px;
+}
+h2 {
+    color:whitesmoke;
+}
+form { 
+    color: whitesmoke;
 }
 #contactBox {
     margin-left: 10px;
@@ -13,4 +24,8 @@
 #textArea51 {
     background-color: black;
     color: white;
+}
+.displayEmail5 { 
+    background-color: black;
+    color: whitesmoke;
 }

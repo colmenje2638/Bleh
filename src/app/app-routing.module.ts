@@ -10,6 +10,9 @@ import { Slide3Component } from './slide3/slide3.component';
 import { Slide4Component } from './slide4/slide4.component';
 import { Slide5Component } from './slide5/slide5.component';
 import { JlokComponent } from './jlok/jlok.component';
+import { AgenciesComponent } from './agencies/agencies.component';
+import { HousingComponent } from './housing/housing.component';
+import { WelfareComponent } from './welfare/welfare.component';
 
 const routes: Routes = [
   {
@@ -35,6 +38,12 @@ const routes: Routes = [
     path: 'Slide5', component: Slide5Component,
   },{
     path: 'jlok', component: JlokComponent,
+  }, {
+    path: 'Agencies', component: AgenciesComponent,
+  }, {
+    path: 'Housing', component: HousingComponent,
+  }, {
+    path: 'Welfare', component: WelfareComponent,
   },
   {
     path: '**',

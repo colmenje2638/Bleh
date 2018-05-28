@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-jlok',
@@ -8,13 +9,35 @@ import { HttpClient } from '@angular/common/http';
 })
 export class JlokComponent implements OnInit {
 
-  constructor(public Http: HttpClient) { }
+  public formData = new FormData();
+  constructor(public Http: HttpClient, public router: Router) { }
 
   ngOnInit() {
-    this.Http.get('http://localhost:3000/')
-    .subscribe((Response:any)=>{
-      console.log(Response);
+    // this.Http.get('http://localhost:3000/')
+    // .subscribe((Response:any)=>{
+    //   console.log(Response);
+    // })
+  }
+  submit() {
+    console.log('hello')
+    this.Http.post('http://localhost:8080/sendImage', this.formData)
+    .subscribe((res) => {
+      console.log(res);
+    }, (err) => {
+      console.log(err);
+
     })
   }
+  onSelect(e) {
+    console.log(e.srcElement.files[0]);
+    let formData = new FormData();
+    this.formData.append('file', e.srcElement.files[0]);
 
-}
+
+  }
+   
+
+    
+
+
+  }

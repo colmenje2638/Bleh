@@ -1,75 +1,116 @@
-#box1 {
-    background-color: black;
+#four20Thousand {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/adult-business-career-209234.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../assets/successful-people-unsuccessful-people.jpg);
-    background-repeat: no-repeat;
-    border-width: 5px;
-    border-style: double;
-    height: 150px;
-    width: 100%;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-}
-.left {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-}
-.right {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+
 }
 
-.carousel{
+.overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 75px;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+
+}
+#description12 {
+    background-color: black;
+    color: whitesmoke;
+}
+#four20Thousand2 {
+    height: 750px;
+    background-color: orange;
+    display: flex;
+    padding: 15px;
+}
+#containerJobs1 {
+    padding: 10px;
+    height: 300px;
+    border: solid;
+
+}
+#containerJobs2 {
+    padding: 10px;
+    height: 300px;
+    border: solid;
+}
+#containerJobs3 {
+    padding: 10px;
+    height: 300px;
+    border: solid;
+}
+#containerJobs4 {
+    padding: 10px;
+    height: 300px;
+    border: solid;
+}
+#jobs1 {
+    border:solid;
     color: black;
-}
-
-
-#slide1{
-    background-image: url('../../assets/backgrounLogoShelters.png');
-    height: 300px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: brown;
-    background-size: 300px 190px;
-    text-align: center;
-}
-#slide2{
-    background-image: url('../../assets/careerslogo.jpg');
-    height: 300px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: brown;
-    text-align: center;
-}
-#slide3{
-    background-image: url('../../assets/picture12.png');
-    height: 300px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: brown;
-    background-size: 300px 190px; 
-    text-align: center;
-}
-.h3 {
+    background-color: whitesmoke;
     font-family: "Times New Roman", Times, sans-serif;
 }
-.h32 {
+#jobs2 {
+    border:solid;
+    color: black;
+    background-color: whitesmoke;
     font-family: "Times New Roman", Times, sans-serif;
 }
-.h33 {
+#jobs3 {
+    border:solid;
+    color: black;
+    background-color: whitesmoke;
     font-family: "Times New Roman", Times, sans-serif;
+}
+#jobs4 {
+    border:solid;
+    color: black;
+    background-color: whitesmoke;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+h5 {
+    font-family: "Times New Roman", Times, serif;
 }
 p {
     font-style: italic;
 }
-a {
-    font-family: "Times New Roman", Times, serif;
+
+
+.wrapper{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+
+.img-container{
+    height: 200px;
+    width:100%;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

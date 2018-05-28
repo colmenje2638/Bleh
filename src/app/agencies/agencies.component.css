@@ -1,0 +1,36 @@
+#agencies14 {
+    min-height: 100vh;
+    width: 100%;
+
+}
+h5 {
+    font-family: "Times New Roman", Times, serif;
+}
+p {
+    font-style: italic;
+}
+
+
+.wrapper{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+
+.img-container{
+    height: 200px;
+    width:100%;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.padding{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}

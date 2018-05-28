@@ -1,36 +1,15 @@
 <nav class="navbar navbar-expand-lg profile-bar">
     <a class="navbar-brand" href="#">
-        <img src="../assets/gravyLogoWhite.png" id=" logo " style="height:70px">
+        <img src="../assets/latinaLuckLogo1200.png" id=" logo " style="height:50px">
     </a>
+    <a id="homeLink" class="btn" routerLink="/Home">Link to Home Page</a>
+    <a id="contactLink" class="btn" routerLink="/Contact">Link to Contact Page</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" routerLink="/Slide2">
-                    <img id="profile-photo " src="../assets/profile picture.jpg " style="height:70px" />
-                    <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <i class="fas fa-cog "></i>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" routerLink="/Home">Home</a>
-                    <a class="dropdown-item" routerLink="/Slide">Profile</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" routerLink="/Contact">Contact US</a>
-                </div>
-            </li>
-
-        </ul>
-
-    </div>
+    
 </nav>
 <router-outlet></router-outlet>
 
@@ -38,15 +17,13 @@
 <footer>
     <div id="foot1">
         <div class="theBox2">
-            <a href="#">
-                <img id="image1" src="../assets/gravyLogoWhite.png">
-                <div class="txtBox2">
-                    <h5>Contact Here</h5>
-                    <h5>Name: Jose Colmenares</h5>
-                    <h5>Email: Colmenje2638@gmail.com
-                        <br> Phone: 323-610-1844 </h5>
-                </div>
-            </a>
+            <div class="txtBox2">
+
+                <h5> Jose Colmenares</h5>
+                <h5> Colmenje2638@gmail.com</h5>
+                <h5> 323-399-9008 </h5>
+                    
+            </div>
         </div>
     </div>
 </footer>

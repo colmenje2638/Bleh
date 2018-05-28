@@ -14,6 +14,9 @@ import { Slide4Component } from './slide4/slide4.component';
 import { Slide5Component } from './slide5/slide5.component';
 import { JlokComponent } from './jlok/jlok.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AgenciesComponent } from './agencies/agencies.component';
+import { HousingComponent } from './housing/housing.component';
+import { WelfareComponent } from './welfare/welfare.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { HttpClientModule } from '@angular/common/http';
     Slide4Component,
     Slide5Component,
     JlokComponent,
+    AgenciesComponent,
+    HousingComponent,
+    WelfareComponent,
   ],
   imports: [
     BrowserModule,
