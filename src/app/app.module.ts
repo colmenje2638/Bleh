@@ -17,6 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AgenciesComponent } from './agencies/agencies.component';
 import { HousingComponent } from './housing/housing.component';
 import { WelfareComponent } from './welfare/welfare.component';
+import { LowComponent } from './low/low.component';
+import { FoodHandlerComponent } from './food-handler/food-handler.component';
+import { HospitalityTrainingComponent } from './hospitality-training/hospitality-training.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { WelfareComponent } from './welfare/welfare.component';
     AgenciesComponent,
     HousingComponent,
     WelfareComponent,
+    LowComponent,
+    FoodHandlerComponent,
+    HospitalityTrainingComponent,
   ],
   imports: [
     BrowserModule,

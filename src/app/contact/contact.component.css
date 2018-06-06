@@ -1,31 +1,55 @@
-#colorChangeContactUs {
+#headerColor {
+    height: 50vh;
+    width: 100%;
     background-color: lightblue;
-    border-style: double;
-    border-width: 7px;
     background-image: url(../../assets/latinaLuckLogo1200.png);
+    background-position: left;
+    background-size: 35vh 35vh;
+    background-repeat: no-repeat;
+    background-position: 10vh 10vh;
+    position: relative;
+}  
+.overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 50vh;
+    padding-top: 75px;
+}
+h1{ 
+    text-align: center;
+    margin-right: 25%;
+    color: black;
+    
+}
+#colorChangeContactUs {
+    background-color: whitesmoke;
+    background-image: url(../../assets/adult-building-business-209271.jpg);
     background-repeat:no-repeat;
     background-position: right;
-    background-size: 300px 300px;
+    background-size: 388px 580px;
     background-position-x: 750px;
 }
+
 h2 {
-    color:whitesmoke;
+    color:black;
 }
 form { 
-    color: whitesmoke;
+    color: black;
 }
 #contactBox {
     margin-left: 10px;
 }
 .colorText52 {
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }
 #textArea51 {
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }
 .displayEmail5 { 
-    background-color: black;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
 }

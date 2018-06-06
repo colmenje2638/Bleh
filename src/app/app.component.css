@@ -5,6 +5,12 @@ nav {
     height:75px;
     background-color: black;
 }
+.heading {
+    color: white;
+    margin-left: 330px;
+    
+    
+}
 #logo {
     height:40px;
 }
@@ -45,14 +51,20 @@ nav {
         width: 120px;
         height: 120px;
     }
-    #homeLink {
-        margin-left: 250px;
-        border: solid;
-    }
-    #contactLink {
-        margin-left: 25px;
-        border: solid;
-    }
+.navlinkCenter{
+    margin-left: auto;
+   
+}
+#homeLink {
+   color:white;
+   padding:15px;
+   
+}
+#contactLink {
+ 
+    color:white;
+}
+  
 
     .navbar{
         position: absolute;

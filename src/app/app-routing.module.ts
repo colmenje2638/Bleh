@@ -13,6 +13,8 @@ import { JlokComponent } from './jlok/jlok.component';
 import { AgenciesComponent } from './agencies/agencies.component';
 import { HousingComponent } from './housing/housing.component';
 import { WelfareComponent } from './welfare/welfare.component';
+import { FoodHandlerComponent } from './food-handler/food-handler.component';
+import { HospitalityTrainingComponent } from './hospitality-training/hospitality-training.component';
 
 const routes: Routes = [
   {
@@ -44,7 +46,9 @@ const routes: Routes = [
     path: 'Housing', component: HousingComponent,
   }, {
     path: 'Welfare', component: WelfareComponent,
-  },
+  },{ path: 'FoodHandler', component: FoodHandlerComponent,
+},{ path: 'HospitalityTraining', component: HospitalityTrainingComponent,
+},
   {
     path: '**',
     redirectTo: 'Home',

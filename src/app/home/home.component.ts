@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(public Http: HttpClient, public router: Router) { }
 
   ngOnInit() {
+    { window.scrollTo(0,0)}
   }
 
   
