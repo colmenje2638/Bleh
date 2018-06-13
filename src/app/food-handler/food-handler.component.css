@@ -29,14 +29,9 @@ h5 {
 }
 p {
     font-style: italic;
+    font-size: 14px;
 }
 
-.wrapper1{
-    height: 350px;
-    width: 100%;
-    overflow: hidden;
-    box-shadow: 0 0 5px rgba(0,0,0,.6);
-}
 .wrapper{
     height: 350px;
     width: 100%;
@@ -44,13 +39,6 @@ p {
     box-shadow: 0 0 5px rgba(0,0,0,.6);
 }
 
-.img-container1{
-    height: 350px;
-    overflow: hidden;
-    display: flex;
-    align-content: space-around;
-    
-}
 .img-container{
     height: 200px;
     width:100%;
@@ -66,9 +54,12 @@ p {
 .padding{
     padding-top: 75px;
     padding-bottom: 50px;
-}.content {
+}
+.content {
     color:black;
-    padding:12px;
+    line-height: 95%;
+    padding-left: 15px;
+    margin-bottom: 0px;
 }
 a:hover {
     text-decoration: none;

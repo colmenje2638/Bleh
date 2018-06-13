@@ -1,8 +1,8 @@
 #headerColor {
     height: 50vh;
     width: 100%;
-    background-color: lightblue;
-    background-image: url(../../assets/latinaLuckLogo1200.png);
+    background-color: 	#0090FF;
+    background-image: url(../../assets/latinaLuckLogo1201.png);
     background-position: left;
     background-size: 35vh 35vh;
     background-repeat: no-repeat;
@@ -19,7 +19,6 @@
 }
 h1{ 
     text-align: center;
-    margin-right: 25%;
     color: black;
     
 }
@@ -41,7 +40,7 @@ form {
 #contactBox {
     margin-left: 10px;
 }
-.colorText52 {
+#colorText52 {
     background-color: whitesmoke;
     color: black;
 }
@@ -49,7 +48,10 @@ form {
     background-color: whitesmoke;
     color: black;
 }
-.displayEmail5 { 
+#displayEmail5 { 
     background-color: whitesmoke;
     color: black;
+}
+.BorderRadius {
+    border-radius: 5px;
 }
